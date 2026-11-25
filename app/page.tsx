@@ -577,7 +577,7 @@ export default function HomePage() {
       <footer className="mt-20 border-t border-blue-900/70 bg-[#050912] py-8 text-center text-sm text-slate-400">
         <div className="mx-auto max-w-6xl px-4">
           <p>
-            © {new Date().getFullYear()} {personalInfo.fullName} — Construido con Next.js,
+            © 2026 {personalInfo.fullName} — Construido con Next.js,
             TypeScript y Tailwind CSS.
           </p>
         </div>
