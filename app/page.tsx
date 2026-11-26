@@ -209,9 +209,11 @@ export default function HomePage() {
 
             <div className="lg:col-span-4">
               <div className="flex flex-col items-center rounded-2xl border border-blue-800/80 bg-[#070d19]/90 p-6 text-center shadow-lg">
-                <div className="flex h-28 w-28 items-center justify-center rounded-full border-2 border-sky-400 bg-gradient-to-br from-blue-900 to-sky-950 text-3xl font-black text-white shadow-inner">
-                  BJA
-                </div>
+                <img
+                  src="/portafolio.jpeg"
+                  alt={personalInfo.fullName}
+                  className="h-32 w-32 rounded-full border-2 border-sky-400 object-cover object-top shadow-lg"
+                />
                 <h2 className="mt-4 text-lg font-bold text-white">{personalInfo.shortName}</h2>
                 <p className="mt-1 flex items-center justify-center gap-1.5 text-xs text-slate-300">
                   <MapPin className="h-3.5 w-3.5 text-sky-400" />
